@@ -1,0 +1,1055 @@
+/* --------------------------------Overall Style--------------------------- */
+body {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: helvetica neue, helvetica, arial;
+    margin: 0;
+    padding: 0;
+    
+
+}
+ul{
+
+  list-style-type:none;
+  }
+  p{
+   
+    text-align: center;
+    /* background-color: green; */
+    margin-bottom: none;
+  }
+/* --------------------------------Homepage style--------------------------- */
+/* --------------------------------------------------------------------- */
+
+
+/*--------------------------------Header----------------------------------*/
+.home-header{
+    background: rgb(255, 249, 249);
+    background-image: url("images/group.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 115%;
+    height: 400px;
+     
+    opacity: 0.9; /*opacity of background image*/
+    
+/* Header styling */
+}
+#main{
+line-height: 100px;
+}
+
+.research-title
+{
+text-transform:uppercase;
+color: rgb(242, 239, 236);
+text-align: center;
+padding: none;
+background: rgba(106, 181, 238,0.4) ;
+/* border: 1px solid white  ;
+text-shadow: 2px 2px #111; */
+/* border-radius: 10px;
+margin-right: auto;
+margin-left: auto; */
+
+}
+  /* Style for side bar */
+  .sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  /* Style for elements in sidebar */
+  .sidebar a, .here {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* side bar hovering */
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Close buttin of side bar "X" */
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Menu button */
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background: rgba(106, 181, 238,0.6) ;
+    color: white; 
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+    
+  }
+
+
+/* Format subcategories */
+  .subcat-link a{
+    color: rgba(255, 255, 255,0.5);
+    display: none;
+    font-size: 18px;
+    padding:2px;
+    text-align: left;
+    margin-left: 20px;
+    
+  }
+
+  /* Display subcategoies when main category is hivered over */
+  /* .survey-cat a :hover div {
+    display: block;
+     
+   } */
+   /* .here a:hover {
+    color: white
+   } */
+.here{
+   color: rgba(255, 255, 255,0.5);
+}
+  
+   .here a:hover{
+    color: white;
+    /* background: rgba(106, 181, 238,0.6);  */
+   }
+
+  .here:hover a {
+   display: block;
+  }
+
+  /* .survey-cat a div{
+    color: rgba(255, 255, 255,0.5);
+    display: none;
+    font-size: 15px;
+    padding:2px
+    
+  }
+   .survey-cat a div:hover {
+    background: rgba(106, 181, 238,0.6); 
+   }
+
+   .survey-cat a:hover div{
+   display: block;
+    
+  } */
+
+/*--------------------------------Introduction----------------------------*/
+
+ 
+  /* .introduction div{
+    display: inline-block;
+    width: 100%;
+    margin-left:10px;
+    margin-right: 10px;  
+  } */
+
+
+  .intro-title {
+   color: #138ed5;
+    text-align: center;
+    /* height: 20px; */
+    width: 100%;
+    /* margin-left: auto; */
+    font-size: large;
+    /* background-color: red; */
+    margin-top: 30px;
+    margin-bottom: 20px;
+  
+    /* line-height: 50px; */
+    /* margin: auto; */
+    /* text-transform: uppercase; */
+    /* font-weight: bold; */
+    /* text-decoration: underline; */
+    /* font-family: sans-serif; */
+  }
+
+  .intro-para, stat-para
+  {
+   text-align: center;   
+   height: auto;
+   width: 100%;
+   /* background-color: orange; */
+   margin-top: none;
+   text-justify: auto;
+  }
+
+  .lines{
+    text-align: center;
+  }
+    
+
+  /* .stat p{
+   
+    text-align: center;
+    background-color: green;
+    margin-bottom: none;
+  } */
+
+  /* .content{
+    display: flex;
+    justify-content: space-around;
+  }
+  .item{
+    background: rgba(106, 181, 238,0.2) ;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 70px;
+    font-size: large;
+    border-radius: 50%;
+    box-shadow: #111 1px 1px 1px;
+  } 
+
+
+
+ 
+
+.dis-factors{
+text-align: center;
+
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  
+} */
+  
+/* .features {
+  background: red;
+  color: rgb(4, 0, 0);
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.features figure {
+  margin: auto;
+  padding: 5px;
+  text-align: center;
+  text-transform:capitalize;
+  width: 200px;
+}
+
+.features figure img {
+  border: 1px solid white;
+  border-radius: 50%;
+  box-shadow: gray 0 0 10px;
+  width: 200px;
+} */
+
+
+.stats {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  
+  }
+  .percent{
+    /* background-color: orange; */
+    /* margin: 5px 30px 20px 30px; */
+    margin: 0% 5% 0% 5%;
+
+    text-align: center;
+    width: 100%;
+    height: 100%;
+ 
+  }  
+  .number{
+    font-size: 20px;
+    padding: 25%;
+    font-weight: bold;   
+    /* background-color:rgba(255, 255, 255,0.5); */
+    background-color:rgba(106, 181, 238,0.2);
+    border-radius: 50%;
+  
+    
+  }
+  .stats .desc{
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+     width: 100%;
+     height: 50px 
+  }
+
+  
+    .desc{
+      /* background-color: green; */
+      display: flex;
+      justify-content: center;
+      font-size: 14px;
+      /* width: 100%;
+       height: 50px */
+    }
+
+
+
+.lit-quotes li{
+  background: rgba(106, 181, 238,0.2) ;
+  padding: 20px;
+  border-radius: 20px 5px 20px 5px;
+  margin: 15px;
+  margin-left: none;
+  text-align: center;
+  
+}
+
+.lit-review lines{
+  text-align: center;
+
+
+}
+.features a{
+  text-decoration: none;
+
+  /* background-color: blueviolet; */
+}
+
+.cat-img {
+align-items: center;
+display: flex;
+/* background-color: red; */
+justify-content: center;
+margin-left:4.5% ;
+
+
+}
+
+.cat-img img{
+  /* width: 250px;
+  height: 200px; */
+  width: 100%;
+  height:30vh;
+  border-radius: 20%;
+  padding: 50px;
+  
+ 
+  }
+
+  .desc{
+    margin-top: 1px;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    margin: 0% 5% 0% 5%;
+  }
+
+  .footer{
+    text-align: right;
+    margin: 20px;
+    margin-bottom: none;
+  }
+
+/* --------------------------------Cosmetic categories--------------------------- */
+/* --------------------------------------------------------------------- */
+
+
+/* --------------------------------Life-like categories--------------------------- */
+
+.life-like-header{
+  background: rgb(255, 249, 249);
+  background-image: url("images/girl_streching.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 115%;
+  height: 400px;
+   
+  opacity: 0.9; /*opacity of background image*/}
+/* Intro to life-like */
+
+
+
+.the-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background: rgba(19, 142, 213, 0.4);
+}
+
+.wrapper{
+  margin:  50px auto;
+  width: 80%;
+}
+
+.text-box{
+  color: rgb(0, 0, 0);
+}
+
+.text-box h2{
+  font-size: 30px;
+  color: black;
+  text-align: center;
+}
+
+.text-box p{
+font-size: 16px;
+font-weight: 300;
+}
+
+.silicon-hand{
+  float: left;
+  border: 3px solid white;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+
+/* Foams */
+
+.foam-head{
+  color: rgba(19, 142, 213, 0.4);
+  text-align: center;
+  font-size: 30px;
+  /* background-color: #138ed5; */
+  margin: none;
+  font-style: oblique;
+}
+
+.endo-foam{
+  float: right;
+  border: 3px solid white;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+.the-wrapper1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  /* background:white; */
+}
+.exo-foam{
+  float: left;
+  border: 3px solid white;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+
+
+
+
+
+/* Colour matching */
+
+.the-wrapper2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  /* background:rgba(19, 142, 213, 0.4); */
+  background-color: white;
+}
+
+.colour-swatch{
+  float: right;
+  border: 3px solid white;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+
+
+
+/* --------------------------------Expressive categories--------------------------- */
+.body-expressive {
+  background: white;
+  color: rgb(0, 0, 0);
+  font-family: helvetica neue, helvetica, arial;
+  margin: 0;
+  padding: 0;
+  
+
+}
+
+.expressive-header{
+  background: rgb(222, 216, 216);
+  background-image: url("images/expressive arms in circle.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 115%;
+  height: 400px;
+   
+  opacity: 0.9; /*opacity of background image*/}
+/* Intro to life-like */
+
+
+.exp-intro p{
+color: black;
+font-style: oblique;
+margin: 3% 5%;
+background-color:rgba(19, 142, 213, 0.2);
+padding: 20px;
+border-radius: 20px 0px 20px 0px;
+}
+.exp-intro p, h2{
+  text-align: center;
+}
+
+.exp-img1{
+/* background: red; */
+display: flex;
+justify-content: center;
+width: 25%;
+height: 50%;
+float: left;
+margin-left: 10%;
+margin-bottom: 5%;
+
+}
+
+.exp-img2{
+/* background: pink; */
+width: 50%;
+height: 50%;
+float: right;
+margin-right: 10%;
+margin-left: none;
+margin-bottom: 5%;
+display: flex;
+justify-content: center;
+
+}
+
+.exp-text{
+  /* background: green; */
+width: 50%;
+height: 50%;
+float: right;
+margin-right: 10%;
+
+}
+
+/* .overall-div-exp {
+  background-color: yellow;
+} */
+
+.expressive-sect{
+  /* background-color: orange; */
+  min-height: 80vh;
+}
+
+/* --------------------------------Interchanagble covers--------------------------- */
+
+
+
+.socket-cover{
+  /* background-color: orange; */
+  min-height: 100vh;
+}
+
+.socket-cover-intro p h2{
+color: black;  
+margin: 0% 5% 5% 5%;
+text-align: center;
+  
+  } */
+  .socket-cover-intro h2{
+    /* background-color: green; */
+    text-align: center;
+  }
+  
+  .socket-cover-text{
+    /* background-color: yellow; */
+    width: 50%;
+   height: 50%;
+   float: right;
+   margin-right: 10%;  
+ }
+ 
+ 
+ .socket-cover-img1{
+  /* background: red; */
+  display: flex;
+  justify-content: center;
+  width: 25%;
+  height: 50%;
+  float: left;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  
+  }
+  
+/* 
+  .socket-cover-img2{
+    background-color: purple;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    float:right;
+    
+  } */
+  .socket-cover-img2{
+    /* background: purple; */
+    width: 50%;
+    height: 50%;
+    float: right;
+    margin-right: 10%;
+    margin-left: none;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    
+    }
+
+
+    .socket-cover-text2{
+      /* background-color: aqua; */
+      width: 50%;
+     height: 50%;
+     float: right;
+     margin-right: 10%;  
+     margin-top: none;
+   }
+  
+
+
+
+    /* --------------------------------Hybrid--------------------------- */
+
+
+    .hybrid-header
+    {
+      background: rgb(255, 249, 249);
+      background-image: url("images/butterfly_girl.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 115%;
+      height: 400px;
+     opacity: 0.9;
+
+    }
+
+    .hybrid-text{
+      background: rgba(106, 181, 238,0.2) ;
+      border-radius: 0px 20px 0px 20px;
+    width: 50%;
+    height: 50%;
+    float: right;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    
+    }
+    .hybrid-text p{
+      margin: 5%;
+    }
+
+    .hybrid-img1{
+      /* background: red; */
+      display: flex;
+      justify-content: center;
+      width: 25%;
+      height: 50%;
+      float: left;
+      margin-left: 10%;
+      margin-bottom: 5%;
+      margin-top: 7%;
+      
+      
+      }
+
+      .hybrid-img2{
+        width: 50%;
+        height: 50%;
+        float: right;
+        margin-right: 10%;
+        margin-left: none;
+        margin-bottom: 8%;
+        display: flex;
+        justify-content: center;
+        
+        }
+
+    /* --------------------------------Motion--------------------------- */
+
+        .motion-div1{
+
+          /* margin-top: 10%; */
+          /* background-color: #138ed5; */
+          min-height: 80vh;
+          display: flex;
+          /* justify-content: center; */
+          width: 100%;
+          margin: 0;
+          padding: 0;
+  
+        }
+        .motion-head
+        {
+          
+          /* background-color: #ff0000; */
+          display: flex;
+          width: 100%;          
+          justify-content: center;
+          /* height: 10%; */
+          margin-top: 10%;
+          
+          /* margin-bottom: 90%; */
+          /* width: 100%;
+          height: 20%; */
+          /* margin-left: 30%; */
+          
+        }
+
+        .motion-head h2{
+          text-align:center;
+          color: #138ed5;
+          
+        }
+
+        .right{
+          /* display: flex;
+          justify-content: center; */
+          float: right;
+          width: 50%;
+          /* margin-top: 10%; */
+          /* margin-left: 50px; */
+          /* background-color: yellow; */
+          /* margin-left: 5%; */
+
+        }
+        .right img{
+          margin: 5% 0% 5% 25%;
+          
+        }
+
+        .right p{
+          font-size: 18px;
+          width: 60%;
+          margin-left: 25%;
+          text-align: center;
+          background: rgba(106, 181, 238,0.2) ;
+          padding: 20px;
+          border-radius: 5px;
+          
+        }
+        /* .right p{
+          font-size: 18px;
+          width: 50%;
+          background: rgba(106, 181, 238,0.2) ;
+          padding: 20px;
+          text-align: center;
+
+        } */
+
+        .left{
+          /* display: flex; */
+          /* justify-content: center; */
+          float: left;
+          width: 50%;
+          /* margin-left: 50%; */
+          /* margin-top: 10%; */
+          /* background-color: aqua; */
+
+        }
+
+        .left img{
+          margin: 5% 0% 5% 10%;
+          
+        }
+        .left p{
+          font-size: 18px;
+          width: 60%;
+          margin-left: 25%;
+          text-align: center;
+          background: rgba(106, 181, 238,0.2) ;
+          padding: 30px;
+          border-radius: 5px;
+          
+        }
+
+
+
+ /* --------------------------------Results style--------------------------- */
+/* --------------------------------------------------------------------- */
+.result-header{
+  background: rgb(255, 249, 249);
+  background-image: url("images/jenga_hand.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 115%;
+  height: 400px;
+   
+  opacity: 0.9; /*opacity of background image*/}
+
+  .result-header section{
+    background: rgb(73, 37, 37);
+  }
+  .survey-lim{
+   
+    text-align: left;
+    /* background-color: green; */
+    /* margin-bottom: none; */
+    margin: 30px;
+  }
+
+
+  .stats-results {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+    }
+    .percent-results{
+      /* background-color: orange; */
+      /* margin: 5px 30px 20px 30px; */
+      margin: 0% 5% 0% 5%;
+  
+      text-align: center;
+      width: 100%;
+      height: 100%;
+   
+    }  
+    .number-results{
+      font-size: 20px;
+      padding: 25%;
+      font-weight: bold;   
+      /* background-color:rgba(255, 255, 255,0.5); */
+      /* background-color:rgba(106, 181, 238,0.2); */
+      border-radius: 50%;
+    
+      
+    }
+    .number-results img{
+      border-radius: 50%;
+      /* border: 1px solid rgb(84, 170, 232); */
+      
+    }
+    .stats-results .desc{
+      /* background-color: green; */
+      display: flex;
+      justify-content: center;
+      font-size: 18px;
+       width: 100%;
+       height: 50px;
+       
+    }
+  
+    
+      .desc-results{
+        /* background-color: green; */
+        display: flex;
+        justify-content: center;
+        font-size: 18px;
+        /* width: 100%;
+         height: 50px */
+      }
+  
+  
+      .para2-results
+      {
+        /* background-color: red; */
+        padding: 3%;
+        margin-left: 2%;
+        margin-right:3%;
+      }
+
+      .word-art img{
+
+        margin-left: 30%;
+      }
+
+      .introduction figcaption
+      {
+        text-align: center;
+      }
+
+      .introduction-Congenital-vs-acquired img{
+        /* align-items: center; */
+margin-left: 25%;
+}
+
+.bubbles{
+/* background-color: red; */
+display: flex;
+/* justify-content: center; */
+}
+      
+.bubbles p{
+/* margin-left: 10%;
+margin-right: 30%; */
+margin-top: 5%;
+
+}
+
+.fig2{
+
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+   /* --------------------------------Demographics style--------------------------- */
+/* --------------------------------------------------------------------- */
+/* .chart-demo{
+  
+  width: 1000px;
+  height: 1000px;
+} */
+.demo-text-div{
+  margin: 0% 15% 0% 15%;
+  background: rgba(106, 181, 238,0.2) ;
+  padding: 5;
+  border-radius: 0px 20px 0px 20px;
+}
+.demo-text-div p {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%; 
+}
+
+.demographics-header{
+  background: rgb(255, 249, 249);
+  background-image: url("images/butterfly_girl.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 115%;
+  height: 400px;
+ opacity: 0.9;
+   
+   /*opacity of background image*/}
+
+   .features-demo {
+  /* background: red; */
+  color: rgb(4, 0, 0);
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.features-demo figure {
+  margin: auto;
+  padding: 5px;
+  text-align: center;
+  text-transform:capitalize;
+  width: 25%;
+}
+
+.features-demo figure img {
+  border: 1px solid white;
+  /* border-radius: 50%; */
+  /* box-shadow: gray 0 0 10px; */
+  /* width: 200px; */
+  align-items: center;
+}
+
+
+  /* --------------------------------Discussion style--------------------------- */
+/* --------------------------------------------------------------------- */
+
+.discussion-header{
+  background: rgb(255, 249, 249);
+  background-image: url("images/girl_streching.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 115%;
+  height: 400px;
+   
+  opacity: 0.9; /*opacity of background image*/}
+
+   /* --------------------------------Conclusion style--------------------------- */
+/* --------------------------------------------------------------------- */
+.conclusion-header{
+  background: rgb(255, 249, 249);
+  background-image: url("images/hand_with_mug.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 115%;
+  height: 400px;
+   
+  opacity: 0.9; /*opacity of background image*/}
+
+  /* --------------------------------References style--------------------------- */
+/* --------------------------------------------------------------------- */
+.refernces-header{
+  background: rgb(255, 249, 249);
+  background-image: url("images/butterfly_girl.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 115%;
+  height: 400px;
+ 
+   
+  opacity: 0.9; /*opacity of background image*/}
+
+   /* --------------------------------About Us style--------------------------- */
+/* --------------------------------------------------------------------- */
+.about-us-header{
+  background: rgb(255, 249, 249);
+  background-image: url("images/butterfly_girl.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 115%;
+  height: 400px;
+ opacity: 0.9;
+   
+   /*opacity of background image*/}
+
+   .features {
+  /* background: red; */
+  color: rgb(4, 0, 0);
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.features figure {
+  margin: auto;
+  padding: 5px;
+  text-align: center;
+  text-transform:capitalize;
+  width: 200px;
+}
+
+.features figure img {
+  border: 1px solid white;
+  border-radius: 50%;
+  box-shadow: gray 0 0 10px;
+  width: 200px;
+  align-items: center;
+}
+
+.introduction-about{
+
+  margin: 0% 10% 0% 10%;
+}
+
